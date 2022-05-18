@@ -5,10 +5,12 @@
         <group>
             <file>file:/C:/Users/salva/Downloads/Institucion-main/src/institucion/Institucion.java</file>
             <file>file:/C:/Users/salva/Downloads/Institucion-main/src/controlador/InscripcionData.java</file>
+            <file>file:/C:/Users/salva/Downloads/Institucion-main/src/controlador/AlumnoData.java</file>
             <file>file:/C:/Users/salva/Downloads/Institucion-main/src/modelo/Inscripcion.java</file>
             <file>file:/C:/Users/salva/Downloads/Institucion-main/src/modelo/Alumno.java</file>
             <file>file:/C:/Users/salva/Downloads/Institucion-main/src/modelo/Materia.java</file>
             <file>file:/C:/Users/salva/Downloads/Institucion-main/src/modelo/Conexion.java</file>
+            <file>file:/C:/Users/salva/Downloads/Institucion-main/src/controlador/MateriaData.java</file>
         </group>
     </open-files>
 </project-private>

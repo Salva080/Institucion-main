@@ -81,7 +81,7 @@ public class InscripcionData {
 
         try {
             String sql = "SELECT * FROM materia WHERE id_materia NOT IN "
-                    + "(SELECT id_materia FROM inscripcion WHERE id_alumno = ? );";
+                    + "(SELECT id_materia FROM inscripcion WHERE id_alumno = ?);";
             PreparedStatement ps = con.prepareStatement(sql);
             ps.setInt(1, id_alumno);
             ResultSet resultSet = ps.executeQuery();
@@ -132,7 +132,7 @@ public class InscripcionData {
     public void inscribir(Inscripcion insc){
 
      try {
-        String sql = "INSERT INTO inscripcion ( id_alumno , id_materia , nota ) VALUES ( ? ,? ,?)";
+        String sql = "INSERT INTO inscripcion ( id_alumno , id_materia , nota ) VALUES (? ,? ,?)";
 
         PreparedStatement ps = con.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
 
@@ -189,7 +189,7 @@ public class InscripcionData {
 
        try {
             
-            String sql = "UPDATE inscripcion SET nota = ? WHERE id_alumno =? and id_materia =?;";
+            String sql = "UPDATE inscripcion SET nota = ? WHERE id_alumno = ? and id_materia = ?;";
 
             PreparedStatement ps = con.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
             ps.setDouble(1,nota);
@@ -212,7 +212,7 @@ public class InscripcionData {
     
         try {
             
-            String sql = "DELETE FROM inscripcion WHERE id_alumno =? and id_materia =?;";
+            String sql = "DELETE FROM inscripcion WHERE id_alumno = ? and id_materia = ?;";
 
             PreparedStatement ps = con.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
             ps.setInt(1, id_alumno);
