@@ -29,6 +29,7 @@ public class Institucion {
         Alumno a= new Alumno(1 ,"Sosa","Juan",LocalDate.of(1980, 8, 23),true);
         Alumno a2= new Alumno(2 ,"Pepe","Jose",LocalDate.of(1990, 9, 01),true);
         Alumno a3= new Alumno(11 ,"Rodrigo","Jose",LocalDate.of(1997, 12, 01),true);
+//        Alumno a3= new Alumno(11 ,"Rodrigo","Jose",LocalDate.of(1997, 12, 01),true);
 //        ad.agregarAlumno(a);
 //        ad.agregarAlumno(a2);
 //        ad.agregarAlumno(a3);

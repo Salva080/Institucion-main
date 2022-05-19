@@ -3,14 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/Users/salva/Downloads/Institucion-main/src/vistas/ViewFormularioInscripcion.java</file>
+            <file>file:/C:/Users/salva/Downloads/Institucion-main/src/vistas/ViewCargaDeNotas.java</file>
             <file>file:/C:/Users/salva/Downloads/Institucion-main/src/institucion/Institucion.java</file>
             <file>file:/C:/Users/salva/Downloads/Institucion-main/src/controlador/InscripcionData.java</file>
-            <file>file:/C:/Users/salva/Downloads/Institucion-main/src/controlador/AlumnoData.java</file>
-            <file>file:/C:/Users/salva/Downloads/Institucion-main/src/modelo/Inscripcion.java</file>
-            <file>file:/C:/Users/salva/Downloads/Institucion-main/src/modelo/Alumno.java</file>
-            <file>file:/C:/Users/salva/Downloads/Institucion-main/src/modelo/Materia.java</file>
-            <file>file:/C:/Users/salva/Downloads/Institucion-main/src/modelo/Conexion.java</file>
-            <file>file:/C:/Users/salva/Downloads/Institucion-main/src/controlador/MateriaData.java</file>
+            <file>file:/C:/Users/salva/Downloads/Institucion-main/src/vistas/Institucion.java</file>
+            <file>file:/C:/Users/salva/Downloads/Institucion-main/src/vistas/ViewListadoDeAlumnosPorMateria.java</file>
         </group>
     </open-files>
 </project-private>
